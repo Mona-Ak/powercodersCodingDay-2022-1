@@ -4,118 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Quiz-MME</title>
+    <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-    <main>
-
-        <h1></h1>
-
-        <form class="myForm">
-            <ul>
-                <h2>thequestion</h2>
-                <li>
-                    <label for="q10">my question</label>
-                    <input type="radio" name="question1" value="A" id="q10" checked>
-                </li>
-                <li>
-                    <label for="q11">my question</label>
-                    <input type="radio" name="question1" value="B" id="q11">
-                </li>
-                <li>
-                    <label for="q12">my question</label>
-                    <input type="radio" name="question1" value="C" id="q12">
-                </li>
-                <li>
-                    <label for="q13">my question</label>
-                    <input type="radio" name="question1" value="D" id="q13">
-                </li>
-            </ul>
-            <ul>
-                <h2>thequestion</h2>
-                <li>
-                    <label for="q20">my question</label>
-                    <input type="radio" name="question2" value="A" id="q20" checked>
-                </li>
-                <li>
-                    <label for="q21">my question</label>
-                    <input type="radio" name="question2" value="B" id="q21">
-                </li>
-                <li>
-                    <label for="q22">my question</label>
-                    <input type="radio" name="question2" value="C" id="q22">
-                </li>
-                <li>
-                    <label for="q23">my question</label>
-                    <input type="radio" name="question2" value="D" id="q23">
-                </li>
-            </ul>
-            <ul>
-                <h2>thequestion</h2>
-                <li>
-                    <label for="q30">my question</label>
-                    <input type="radio" name="question3" value="A" id="q30" checked>
-                </li>
-                <li>
-                    <label for="q31">my question</label>
-                    <input type="radio" name="question3" value="B" id="q31">
-                </li>
-                <li>
-                    <label for="q32">my question</label>
-                    <input type="radio" name="question3" value="C" id="q32">
-                </li>
-                <li>
-                    <label for="q33">my question</label>
-                    <input type="radio" name="question3" value="D" id="q33">
-                </li>
-            </ul>
-            <ul>
-                <h2>thequestion</h2>
-                <li>
-                    <label for="q40">my question</label>
-                    <input type="radio" name="question4" value="A" id="q40" checked>
-                </li>
-                <li>
-                    <label for="q41">my question</label>
-                    <input type="radio" name="question4" value="B" id="q41">
-                </li>
-                <li>
-                    <label for="q42">my question</label>
-                    <input type="radio" name="question4" value="C" id="q42">
-                </li>
-                <li>
-                    <label for="q43">my question</label>
-                    <input type="radio" name="question4" value="D" id="q43">
-                </li>
-            </ul>
-            <ul>
-                <h2>thequestion</h2>
-                <li>
-                    <label for="q50">my question</label>
-                    <input type="radio" name="question5" value="A" id="q50" checked>
-                </li>
-                <li>
-                    <label for="q51">my question</label>
-                    <input type="radio" name="question5" value="B" id="q51">
-                </li>
-                <li>
-                    <label for="q52">my question</label>
-                    <input type="radio" name="question5" value="C" id="q52">
-                </li>
-                <li>
-                    <label for="q53">my question</label>
-                    <input type="radio" name="question5" value="D" id="q53">
-                </li>
-            </ul>
-
-            <input type="submit">
-
-        </form>
-
-    </main>
-
+<form>
     
-    <script src="quiz.js"></script>
+<ul>
+    <h2>1- What will be the output? <br>const person = {
+        firstName : "John",
+        lastName  : "Doe",
+        age       : 50,
+        eyeColor  : "blue"
+      };
+      let {lastName} = person;
+      const {firstName, age, eyeColor} = person;
+      console.log(lastName);
+    </h2>
+    <li>
+        <input type="radio" name="question1" id="q1.0">
+        <label for="q1.0">Doe</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question1" id="q1.1">
+        <label for="q1.1">undefined</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question1" id="q1.2">
+        <label for="q1.2">"Doe" (with double quotes)</label>
+        
+    </li>
+    <li> 
+        <input type="radio" name="question1" id="q1.3">
+        <label for="q1.3">"John"</label>
+        <!-- correct-1 -->
+        
+    </li>
+    <input type="submit" id="sb1">
+</ul>
+<ul>
+    <h2>What is the value of a in the alert? <br>function q1() {
+        var a = 5;
+        if(a > 1) {
+            a = 3;
+        }
+        alert(a);
+      } </h2>
+    <li> 
+        <input type="radio" name="question2" id="q2.0">
+        <label for="q2.0">undefined</label>
+       
+    </li>
+    <li>
+        <input type="radio" name="question2" id="q2.1">
+        <label for="q2.1">5</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question2" id="q2.2">
+        <label for="q2.2">3</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question2" id="q2.3">
+        <label for="q2.3">q1</label>    
+        <!-- correct= 3 -->
+    </li>
+    <input type="submit" id="sb2">
+</ul>
+<ul>
+    <h2>Manipulating the DOM node can...</h2>
+    <li>
+        <input type="radio" name="question3" id="q3.0">
+        <label for="q3.0">change its attribute/modify its styles.</label>
+       
+    </li>
+    <li>
+        <input type="radio" name="question3" id="q3.1">
+        <label for="q3.1">append new nodes to it.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question3" id="q3.2">
+        <label for="q3.2">give it new innerHTML.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question3" id="q3.3">
+        <label for="q3.3">do all of them.</label> 
+        <!-- correct=4 -->
+    </li>
+    <input type="submit" id="sb3">
+</ul>
+<ul>
+    <h2>Which one is appropriate?</h2>
+    <li>
+        <input type="radio" name="question4" id="q4.0">
+        <label for="q4.0">document.getElementsByClassName and document.getElementsByTagName return all of the elements as an array.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question4" id="q4.1">
+        <label for="q4.1">You can call single elements by their index, e.g. [0] or loop through them.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question4" id="q4.2">
+        <label for="q4.2">Both are correct.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question4" id="q4.3">
+        <label for="q4.3">All of the previous answers are incorrect.</label>
+        <!-- correct=3 -->
+    </li>
+    <input type="submit" id="sb4">
+</ul>
+<ul>
+    <h2>If it's possible, you should avoid using ...</h2>
+    <li>
+        <input type="radio" name="question5" id="q5.0">
+        <label for="q5.0">eval.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question5" id="q5.1">
+        <label for="q5.1">innerHTML.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question5" id="q5.2">
+        <label for="q5.2">both of them.</label>
+        
+    </li>
+    <li>
+        <input type="radio" name="question5" id="q5.3">
+        <label for="q5.3">It's totally safe to use eval and innerHTML.</label>
+        <!-- correct=3 -->
+    </li>
+    <input type="submit" id="sb5">
+</ul>
+</form>
+
 </body>
 </html>
