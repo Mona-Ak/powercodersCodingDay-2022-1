@@ -24,13 +24,12 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .upper_body { 
-	width: 300px; 
-	height: 150px;
 	display: flex; 
+	justify-content: center;
 } 
 
 .left_arm, .right_arm { 
@@ -40,6 +39,7 @@ h1 {
 } 
 
 .left_arm { 
+	
 	margin-right: 10px; 
 } 
 
@@ -51,6 +51,7 @@ h1 {
 	width: 200px; 
 	height: 200px;
 	border-radius: 0 0 50px 50px; 
+	
 } 
 
 .lower_body { 
@@ -58,12 +59,13 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
+	display: flex;
 
 } 
 
 .left_leg, .right_leg { 
 	width: 40px; 
-	height: 120px;
+	height: 70px;
 	border-radius: 0 0 100px 100px; 
 } 
 
@@ -71,12 +73,22 @@ h1 {
 	margin-left: 45px; 
 } 
 
-.left_leg:hover {
-	-webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
+.left_arm:hover {
+	margin-top: -40px;
+	-webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+.right_arm:hover{
+	margin-top: -40px;
+	-webkit-transform: rotate(-120deg);
+    -moz-transform: rotate(-120deg);
+    -o-transform: rotate(-120deg);
+    -ms-transform: rotate(-120deg);
+    transform: rotate(-120deg);
 }
 
 .right_leg { 
