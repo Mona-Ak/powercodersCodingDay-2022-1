@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article>
+        <form action="">
+            <label for="title" onchange="addingBook()">name of the book</label>
+            <input type="text" id="title">
+            <label for="author">name of the author</label>
+            <input type="text" id="author">
+            <label for="price">how much does it cost?</label>
+            <input type="number" id="price">
+            
+            <input type="submit" onclick="addingBook()" class="submit" >
+        </form>
+    </article>
+    <script src="book.js"></script>
+</body>
+</html>
