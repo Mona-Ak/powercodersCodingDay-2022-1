@@ -11,6 +11,7 @@ body{
 
 header{
     display: flex;
+    border-bottom: 1px solid #E1E2E7;
 }
 
 main{
@@ -43,9 +44,40 @@ a{
 
 main section{
 background-color: #F1F3F8;
-flex-grow: 3;
+flex-grow: 5;
 }
-aside, aside section{
-background-color: purple;
+
+article{
+    background-color: #ffffff;
+    border: 1px solid #E7E8EB;
+    box-shadow: 1rem #E7E8EB;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+article h1{
+    color: #36C196;
+    margin-left: 1rem;
+    
+}
+
+article p{
+    color: #B8BFCC;
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+aside{
+background-color: #ffffff;
 flex-grow: 1;
+border: 1px solid #E1E2E7;
+}
+
+aside section{
+    margin: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #ECEEEF;
+    padding: 3rem 1rem;
+    text-align: center;
 }
